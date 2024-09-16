@@ -1,16 +1,36 @@
-# health_hub_project
+# HealthHUB - Mental Health Questionnaire App
 
-A new Flutter project.
+![HealthHUB Screen 1](images/screen1.png)
+![HealthHUB Screen 2](images/screen2.png)
+![HealthHUB Screen 3](images/screen3.png)
 
-## Getting Started
+## Overview
 
-This project is a starting point for a Flutter application.
+HealthHUB is a Flutter-based mobile application designed to provide mental health assessments and recommendations. Users can answer a series of questions to assess their mental well-being, and the app provides feedback on whether they should seek professional help based on their responses. The app also integrates with Firebase for user authentication and data storage.
 
-A few resources to get you started if this is your first Flutter project:
+## Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- User authentication with Firebase (Sign Up, Login, Logout)
+- Mental health assessments based on various categories like Anxiety, Depression, Anger, Happiness, etc.
+- Personalized feedback and recommendations using a trained machine learning model
+- Data visualization with dynamic graphs to track mental health trends
+- User profile management and note-taking functionality
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Prerequisites
+
+Before you begin, ensure you have met the following requirements:
+
+- [Flutter SDK](https://flutter.dev/docs/get-started/install)
+- [Firebase CLI](https://firebase.google.com/docs/cli)
+- Python environment (optional, if you plan to train the machine learning model)
+- Git for version control
+
+## Installation
+
+To set up the project locally, follow these steps:
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/Andrew-Manyak/HealthHub.git
+   cd HealthHub

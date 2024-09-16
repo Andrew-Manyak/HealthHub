@@ -12,7 +12,7 @@ class _QuestionnairePageState extends State<QuestionnairePage> {
 
   void _submitQuestionnaire() async {
     _userResponses = {
-      'response_numeric': 2, /
+      'response_numeric': 2,
       'age': 25,
       'gender': 1,
     };
